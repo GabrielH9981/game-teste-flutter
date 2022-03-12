@@ -1,0 +1,14 @@
+{ "columns":25,
+ "image":"mapinhaa (1).png",
+ "imageheight":400,
+ "imagewidth":400,
+ "margin":0,
+ "name":"mapinhaa (1)",
+ "spacing":0,
+ "tilecount":625,
+ "tiledversion":"1.8.2",
+ "tileheight":16,
+ "tilewidth":16,
+ "type":"tileset",
+ "version":"1.8"
+}
