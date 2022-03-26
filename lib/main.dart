@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:bonfire/bonfire.dart';
 
+import 'guerreiro.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -31,9 +33,11 @@ class Game extends StatelessWidget {
         directional: JoystickDirectional(),
       ),
       map: TiledWorldMap(
-        'mapinha.json',
-        forceTileSize: Size(32, 32),
+        'mapinha-finalizado.json',
+        forceTileSize: Size(50, 50),
       ),
+      player: Guerreiro(Vector2(6 * 50, 6 * 50)),
+      showCollisionArea: false,
     );
   }
 }
