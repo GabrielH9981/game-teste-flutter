@@ -33,7 +33,7 @@ class Game extends StatelessWidget {
         directional: JoystickDirectional(),
       ),
       map: TiledWorldMap(
-        'mapinha-finalizado.json',
+        'mapas/mapinha-finalizado.json',
         forceTileSize: Size(50, 50),
       ),
       player: Guerreiro(Vector2(6 * 50, 6 * 50)),

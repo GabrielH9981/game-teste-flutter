@@ -1,9 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.flutterando_game">
    <application
-        android:label="flutterando_game"
+        android:label="Economiza$"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/economizas">
         <activity
             android:name=".MainActivity"
             android:exported="true"
